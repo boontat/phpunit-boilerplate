@@ -10,3 +10,8 @@ deploy:
   keep_history: true
   on:
     branch: master
+notifications:
+  email:
+    - boontat_puah@commontown.com
+  on_success: always # default: change
+  on_failure: always # default: always
