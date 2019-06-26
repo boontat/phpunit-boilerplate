@@ -5,6 +5,7 @@
 ## Requirement
 1. PHP version 7.2 and above
 2. PHP extension - xml, mbstring
+3. PHP-xdebug
 
 ## Installation
 1. `$ git clone git@github.com:boontat/phpunit-boilerplate.git`
