@@ -1,1 +1,23 @@
-Hello World
+<h1 id="phpunit-test-boilerplate-phpunit-8-2-">PHPUNIT Test Boilerplate (PHPUnit 8.2)</h1>
+<p><a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/boontat/phpunit-boilerplate.svg?branch=master" alt="Build Status"></a></p>
+<h2 id="requirement">Requirement</h2>
+<ol>
+<li>PHP version 7.2 and above</li>
+<li>PHP extension - xml, mbstring</li>
+<li>PHP-xdebug</li>
+</ol>
+<h2 id="installation">Installation</h2>
+<ol>
+<li><code>$ git clone git@github.com:boontat/phpunit-boilerplate.git</code></li>
+<li><code>$ composer install</code></li>
+</ol>
+<h2 id="usage">Usage</h2>
+<ol>
+<li><code>$ ./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox tests</code></li>
+</ol>
+<h2 id="command-option">Command Option</h2>
+<ol>
+<li><code>--testdox</code> - Use the function name as the brief description of what the test is about</li>
+<li><code>--bootstrap</code> - Include script before the test run</li>
+<li><code>tests</code> - Folder containing the test script, test all file with postfix <code>*Test.php</code>. Test single file by specify exact test script, eg. <code>tests/EmailTest.php</code></li>
+</ol>
