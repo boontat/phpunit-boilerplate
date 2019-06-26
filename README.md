@@ -1,5 +1,7 @@
 # PHPUNIT Test Boilerplate (PHPUnit 8.2)
 
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/boontat/phpunit-boilerplate.svg?branch=master" alt="Build Status"></a>
+
 ## Requirement
 1. PHP version 7.2 and above
 2. PHP extension - xml, mbstring
