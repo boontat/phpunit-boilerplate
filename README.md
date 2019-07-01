@@ -5,7 +5,7 @@
 ## Requirement
 1. PHP version 7.2 and above
 2. PHP extension - xml, mbstring
-3. PHP-xdebug
+3. PHP-xdebug (for code coverage)
 
 ## Installation
 1. `$ git clone git@github.com:boontat/phpunit-boilerplate.git`
@@ -19,3 +19,6 @@
 1. `--testdox` - Use the function name as the brief description of what the test is about
 2. `--bootstrap` - Include script before the test run
 3. `tests` - Folder containing the test script, test all file with postfix `*Test.php`. Test single file by specify exact test script, eg. `tests/EmailTest.php`
+
+## New section
+blab la
