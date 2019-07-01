@@ -13,6 +13,7 @@
 
 ## Usage
 1. `$ ./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox tests`
+2. with phpunit.xml - `$ ./vendor/bin/phpunit`
 
 ## Command Option
 1. `--testdox` - Use the function name as the brief description of what the test is about
