@@ -15,3 +15,5 @@ notifications:
     - boontat_puah@commontown.com
   on_success: always # default: change
   on_failure: always # default: always
+  slack:
+    - commont:I1g0zOf3BcOpws25Q8aX3uAP
